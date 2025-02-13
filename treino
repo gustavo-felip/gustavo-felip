@@ -1,0 +1,28 @@
+diaDaSemana = prompt ("qual é o dia da semana?");
+if (diaDaSemana == 'sabado'){
+    alert ("bom fim de semana!");
+}else if (diaDaSemana == "domingo"){
+ alert ("bom fim de semana!")
+}else {
+    alert ("boa semana!")
+};
+
+numero = prompt ("digite um numero");
+if (numero >= 0 ){
+    alert ("positivo")
+} else{
+    alert ("negativo")
+};
+
+pontuação = prompt ("digame um numero  maior que 0 e na media de seja igual ou maior que ametade de 200 ");
+if (pontuação >= 100 ){
+    alert ("parabens você venceu")
+} else{
+    alert ("você errou campeão tente novamente!")
+}
+
+let saldoDaconta = 500
+alert (`seu saldo é ${saldoDaconta}`);
+
+nome = prompt ("qual seu nome?");
+alert (`bem vindo ${nome}`);
