@@ -1,0 +1,20 @@
+let contador = 1;
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
+} let conatador = 10;
+while (contador >=0){
+    console.log(contador);
+    contador--;
+}
+let fimDoMundo = prompt("digete um numero para contagem regressiva");
+while (fimDoMundo >= 0){
+    console.log (fimDoMundo);
+    fimDoMundo--;
+}
+let feminista = prompt ("digite um numero para contagem progressiva");;
+let soma = 0;
+while (soma <= feminista){
+    console.log(soma);
+    soma++
+} 
