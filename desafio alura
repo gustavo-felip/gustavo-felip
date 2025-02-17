@@ -1,0 +1,52 @@
+console.log("boas vindas!");
+let nome = "gustavo"
+console.log(`ola ${nome}!`);
+
+let name = "gustavo";
+alert (` ola ${name}!`);
+let resposta = prompt ("qual a linguagem que você mais gosta?");
+console.log(resposta);
+
+let valor1 = 8;
+let valor2 = 4;
+let resultado = valor1 + valor2;
+console.log(` a soma do ${valor1} + e ${valor2} é igual a ${resultado}`);
+
+let  valor3 = 71;
+let  valor4 = 26;
+let  igual = valor3 - valor4;
+console.log(`A diferença entre ${valor3} e o ${valor4} é ${igual}.`);
+
+let numero = prompt("insira sua idade")
+ if (numero > 1){
+  console.log("você é maior de idade");
+ }else{
+  console.log("você é de menor");
+ }
+
+ let saldo = prompt ("digite seu saldo");
+if (saldo > 200){
+  console.log("saldo positivo");
+}else{
+  console.log("saldo negativo");
+}
+let corinthians = 1;
+while (corinthians <= 10) {
+    console.log(corinthians);
+    corinthians++;
+}
+
+let nota =10
+if (nota >= 7){
+  console.log("aprovado");
+}else{
+  cosole.log("reprovado")
+} 
+let danone = parseInt(Math.random() * 10)
+console.log( danone);
+
+let lula = parseInt(Math.random() * 10) + 1;
+console.log(lula)
+
+let laraja = parseInt(Math.random() * 1000) + 1;
+console.log(laraja);
